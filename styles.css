@@ -1,0 +1,39 @@
+nav {
+    position: fixed;
+    backdrop-filter: blur(1rem);
+    border-bottom: 1px solid var(--pico-muted-border-color);
+}
+
+header {
+    text-align: center;
+    margin-bottom: calc(2 * var(--pico-block-spacing-vertical));
+}
+
+header > h1 {
+    margin-top: calc(2.5 * var(--pico-block-spacing-vertical));
+    font-size: 3rem;
+}
+
+header > p {
+    color: var(--pico-muted-color);
+    max-width: 60ch;
+    margin: auto;
+}
+
+.skills > ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.skills > ul > img {
+    min-width: 64px;
+}
+
+.skills > ul > li {
+    padding: var(--pico-spacing);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
