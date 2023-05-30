@@ -37,3 +37,31 @@ header > p {
     flex-direction: column;
     text-align: center;
 }
+
+.projects > article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: var(--pico-block-spacing-vertical);
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    display: flex;
+    align-items: center;
+}
+
+button > img {
+    margin-right: 0.5rem;
+}
+
+@media (width < 768px) {
+    .projects > article {
+        flex-direction: column;
+    }
+}
+
